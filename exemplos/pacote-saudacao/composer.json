@@ -1,0 +1,23 @@
+{
+    "name": "minha-empresa/saudacao",
+    "description": "Gera saudações para aplicações Yii3",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MinhaEmpresa\\Saudacao\\": "src"
+        }
+    },
+    "extra": {
+        "config-plugin-options": {
+            "source-directory": "config"
+        },
+        "config-plugin": {
+            "params": "params.php",
+            "di": "di.php"
+        }
+    }
+}

@@ -11,7 +11,10 @@ docs/                    # o site (VitePress)
   .vitepress/sumario.mjs # o sumário: menu lateral e lista de esboços
   primeiros-passos/      # um diretório por seção
 app/                     # o app Yii3 de onde vem o código dos capítulos
+exemplos/                # código citado que não roda dentro do app (pacote separado, workers)
 scripts/gerar-esbocos.mjs
+scripts/revisar.mjs      # revisão automática dos capítulos
+ESTILO.md                # regras de tom, código e organização
 ```
 
 ## Rodando o site
@@ -31,14 +34,16 @@ cp .env.example .env
 ./yii serve
 ```
 
-Depois acesse `/ola`, `/cadastro` e `/paises` em http://127.0.0.1:8080.
+Depois acesse `/ola`, `/cadastro` e `/paises` em http://127.0.0.1:8080. Cada seção do guia tem as suas páginas sob o próprio prefixo, como `/seguranca/login` e `/api/v1/tarefas`. Algumas páginas pedem dados de exemplo: rode `./yii seguranca:rbac` antes de testar a seção de Segurança.
 
 ## Escrevendo um capítulo
+
+Antes, leia o [ESTILO.md](ESTILO.md).
 
 1. Escreva o código no `app/` e teste.
 2. Substitua o esboço em `docs/<secao>/<capitulo>.md` pelo texto, copiando o código do `app/`.
 3. Em `docs/.vitepress/sumario.mjs`, remova os `topicos` do capítulo. É isso que tira a marca "em breve" do menu.
-4. Rode `npm run esbocos` para atualizar o `docs/sumario.md` e `npm run build` para conferir links quebrados.
+4. Rode `npm run esbocos` para atualizar o `docs/sumario.md`, `npm run revisar` para a revisão automática e `npm run build` para conferir links quebrados.
 
 ## Licença
 

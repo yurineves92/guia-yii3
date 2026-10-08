@@ -18,6 +18,6 @@ features:
     details: Todo código dos capítulos vem de um app Yii3 que está no repositório. Se está no guia, roda.
   - title: Para quem vem do Yii2
     details: Cada conceito novo é comparado com o jeito antigo, para você saber o que mudou e por quê.
-  - title: Em construção, em público
-    details: Os capítulos são escritos aos poucos. Os que ainda são esboço aparecem marcados como "em breve" no menu.
+  - title: Do começo ao fim
+    details: Da instalação a APIs, segurança, testes e servidores de longa duração, com a mesma estrutura do guia do Yii2.
 ---

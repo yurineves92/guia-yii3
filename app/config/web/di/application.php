@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
+use App\Web\Api\Shared\CsrfExcetoApi;
 use App\Web\NotFound\NotFoundHandler;
-use Yiisoft\Csrf\CsrfTokenMiddleware;
 use Yiisoft\Definitions\DynamicReference;
 use Yiisoft\Definitions\Reference;
 use Yiisoft\ErrorHandler\Middleware\ErrorCatcher;
@@ -28,7 +28,8 @@ return [
                     [
                         ErrorCatcher::class,
                         SessionMiddleware::class,
-                        CsrfTokenMiddleware::class,
+                        // No lugar do CsrfTokenMiddleware: CSRF em todo o site, menos em /api (ver capítulo APIs REST).
+                        CsrfExcetoApi::class,
                         RequestCatcherMiddleware::class,
                         Router::class,
                     ],

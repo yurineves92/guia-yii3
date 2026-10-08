@@ -35,7 +35,7 @@ return [
         'di-providers-console' => [
             '$di-providers',
         ],
-        'events' => [],
+        'events' => '?common/events/*.php',
         'events-web' => ['$events'],
         'events-console' => ['$events'],
         'routes' => [

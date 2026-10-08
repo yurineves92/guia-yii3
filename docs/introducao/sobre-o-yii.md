@@ -53,4 +53,4 @@ O template `yiisoft/app` pede PHP 8.2 ou mais novo e o Composer. Os detalhes est
 
 Este guia é independente e não é a documentação oficial do Yii. A documentação oficial, em inglês, fica em [yiisoft.github.io/docs](https://yiisoft.github.io/docs/guide/). A estrutura deste guia segue a do [guia do Yii2](https://www.yiiframework.com/doc/guide/2.0/pt-br), para quem já conhece o caminho.
 
-Todo exemplo de código aqui vem do app que está na pasta `app/` do repositório e foi executado antes de ir para a página.
+Todo exemplo de código aqui vem do app que está na pasta `app/` do repositório e foi executado antes de ir para a página. O pouco que não roda dentro desse app, como um pacote separado ou a configuração de um servidor RoadRunner, fica na pasta `exemplos/`, e o capítulo avisa quando algo não foi executado.

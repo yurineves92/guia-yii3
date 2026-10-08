@@ -17,102 +17,102 @@
 
 ## Estrutura da aplicação
 
-- [Visão geral](/estrutura/visao-geral) *(em breve)*
-- [Script de entrada](/estrutura/script-de-entrada) *(em breve)*
-- [Aplicação](/estrutura/aplicacao) *(em breve)*
-- [Actions e controllers](/estrutura/actions-e-controllers) *(em breve)*
-- [Middleware](/estrutura/middleware) *(em breve)*
-- [Views](/estrutura/views) *(em breve)*
-- [Domínio: entidades e serviços](/estrutura/dominio) *(em breve)*
-- [Widgets](/estrutura/widgets) *(em breve)*
-- [Assets](/estrutura/assets) *(em breve)*
-- [Pacotes](/estrutura/pacotes) *(em breve)*
+- [Visão geral](/estrutura/visao-geral)
+- [Script de entrada](/estrutura/script-de-entrada)
+- [Aplicação](/estrutura/aplicacao)
+- [Actions e controllers](/estrutura/actions-e-controllers)
+- [Middleware](/estrutura/middleware)
+- [Views](/estrutura/views)
+- [Domínio: entidades e serviços](/estrutura/dominio)
+- [Widgets](/estrutura/widgets)
+- [Assets](/estrutura/assets)
+- [Pacotes](/estrutura/pacotes)
 
 ## Tratando requisições
 
-- [Roteamento e URLs](/requisicoes/roteamento) *(em breve)*
-- [Requisição](/requisicoes/requisicao) *(em breve)*
-- [Resposta](/requisicoes/resposta) *(em breve)*
-- [Sessões e cookies](/requisicoes/sessoes-e-cookies) *(em breve)*
-- [Tratamento de erros](/requisicoes/tratamento-de-erros) *(em breve)*
-- [Logs](/requisicoes/logs) *(em breve)*
+- [Roteamento e URLs](/requisicoes/roteamento)
+- [Requisição](/requisicoes/requisicao)
+- [Resposta](/requisicoes/resposta)
+- [Sessões e cookies](/requisicoes/sessoes-e-cookies)
+- [Tratamento de erros](/requisicoes/tratamento-de-erros)
+- [Logs](/requisicoes/logs)
 
 ## Conceitos-chave
 
-- [Configuração](/conceitos/configuracao) *(em breve)*
-- [Container de DI](/conceitos/container-di) *(em breve)*
-- [Aliases](/conceitos/aliases) *(em breve)*
-- [Autoload](/conceitos/autoload) *(em breve)*
-- [Eventos](/conceitos/eventos) *(em breve)*
-- [Imutabilidade](/conceitos/imutabilidade) *(em breve)*
+- [Configuração](/conceitos/configuracao)
+- [Container de DI](/conceitos/container-di)
+- [Aliases](/conceitos/aliases)
+- [Autoload](/conceitos/autoload)
+- [Eventos](/conceitos/eventos)
+- [Imutabilidade](/conceitos/imutabilidade)
 
 ## Banco de dados
 
-- [Conexão e comandos](/banco-de-dados/conexao) *(em breve)*
-- [Query builder](/banco-de-dados/query-builder) *(em breve)*
-- [Active Record](/banco-de-dados/active-record) *(em breve)*
-- [Migrations](/banco-de-dados/migrations) *(em breve)*
+- [Conexão e comandos](/banco-de-dados/conexao)
+- [Query builder](/banco-de-dados/query-builder)
+- [Active Record](/banco-de-dados/active-record)
+- [Migrations](/banco-de-dados/migrations)
 
 ## Coletando dados do usuário
 
-- [Criando formulários](/formularios/criando-formularios) *(em breve)*
-- [Validação](/formularios/validacao) *(em breve)*
-- [Upload de arquivos](/formularios/upload) *(em breve)*
-- [Dados tabulares](/formularios/dados-tabulares) *(em breve)*
+- [Criando formulários](/formularios/criando-formularios)
+- [Validação](/formularios/validacao)
+- [Upload de arquivos](/formularios/upload)
+- [Dados tabulares](/formularios/dados-tabulares)
 
 ## Exibindo dados
 
-- [Formatação](/dados/formatacao) *(em breve)*
-- [Paginação](/dados/paginacao) *(em breve)*
-- [Ordenação](/dados/ordenacao) *(em breve)*
-- [Data readers](/dados/data-readers) *(em breve)*
-- [Widgets de dados](/dados/widgets-de-dados) *(em breve)*
+- [Formatação](/dados/formatacao)
+- [Paginação](/dados/paginacao)
+- [Ordenação](/dados/ordenacao)
+- [Data readers](/dados/data-readers)
+- [Widgets de dados](/dados/widgets-de-dados)
 
 ## Segurança
 
-- [Visão geral](/seguranca/visao-geral) *(em breve)*
-- [Autenticação](/seguranca/autenticacao) *(em breve)*
-- [Autorização](/seguranca/autorizacao) *(em breve)*
-- [Senhas](/seguranca/senhas) *(em breve)*
-- [Criptografia](/seguranca/criptografia) *(em breve)*
-- [Boas práticas](/seguranca/boas-praticas) *(em breve)*
+- [Visão geral](/seguranca/visao-geral)
+- [Autenticação](/seguranca/autenticacao)
+- [Autorização](/seguranca/autorizacao)
+- [Senhas](/seguranca/senhas)
+- [Criptografia](/seguranca/criptografia)
+- [Boas práticas](/seguranca/boas-praticas)
 
 ## Cache
 
-- [Visão geral](/cache/visao-geral) *(em breve)*
-- [Cache de dados](/cache/cache-de-dados) *(em breve)*
-- [Cache HTTP](/cache/cache-http) *(em breve)*
+- [Visão geral](/cache/visao-geral)
+- [Cache de dados](/cache/cache-de-dados)
+- [Cache HTTP](/cache/cache-http)
 
 ## APIs REST
 
-- [Início rápido](/api/inicio-rapido) *(em breve)*
-- [Recursos e respostas](/api/recursos) *(em breve)*
-- [Autenticação](/api/autenticacao) *(em breve)*
-- [Versionamento](/api/versionamento) *(em breve)*
-- [Erros](/api/erros) *(em breve)*
-- [Documentação OpenAPI](/api/openapi) *(em breve)*
+- [Início rápido](/api/inicio-rapido)
+- [Recursos e respostas](/api/recursos)
+- [Autenticação](/api/autenticacao)
+- [Versionamento](/api/versionamento)
+- [Erros](/api/erros)
+- [Documentação OpenAPI](/api/openapi)
 
 ## Ferramentas
 
-- [Debug](/ferramentas/debug) *(em breve)*
-- [Qualidade de código](/ferramentas/qualidade) *(em breve)*
+- [Debug](/ferramentas/debug)
+- [Qualidade de código](/ferramentas/qualidade)
 
 ## Testes
 
-- [Visão geral](/testes/visao-geral) *(em breve)*
-- [Testes unitários](/testes/unitarios) *(em breve)*
-- [Testes funcionais](/testes/funcionais) *(em breve)*
-- [Testes web](/testes/web) *(em breve)*
+- [Visão geral](/testes/visao-geral)
+- [Testes unitários](/testes/unitarios)
+- [Testes funcionais](/testes/funcionais)
+- [Testes web](/testes/web)
 
 ## Tópicos especiais
 
-- [Comandos de console](/topicos/console) *(em breve)*
-- [Docker](/topicos/docker) *(em breve)*
-- [Internacionalização](/topicos/i18n) *(em breve)*
-- [Envio de e-mails](/topicos/emails) *(em breve)*
-- [Desempenho](/topicos/desempenho) *(em breve)*
-- [Servidores de longa duração](/topicos/longa-duracao) *(em breve)*
+- [Comandos de console](/topicos/console)
+- [Docker](/topicos/docker)
+- [Internacionalização](/topicos/i18n)
+- [Envio de e-mails](/topicos/emails)
+- [Desempenho](/topicos/desempenho)
+- [Servidores de longa duração](/topicos/longa-duracao)
 
 ## Helpers
 
-- [Visão geral](/helpers/visao-geral) *(em breve)*
+- [Visão geral](/helpers/visao-geral)
