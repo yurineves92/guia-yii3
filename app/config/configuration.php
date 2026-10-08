@@ -7,7 +7,10 @@ use App\Environment;
 // NOTE: After making changes in this file, run `composer yii-config-rebuild` to update the merge plan.
 return [
     'config-plugin' => [
-        'params' => 'common/params.php',
+        'params' => [
+            'common/params.php',
+            '?common/params/*.php',
+        ],
         'params-web' => [
             '$params',
             'web/params.php',
@@ -35,7 +38,10 @@ return [
         'events' => [],
         'events-web' => ['$events'],
         'events-console' => ['$events'],
-        'routes' => 'common/routes.php',
+        'routes' => [
+            'common/routes.php',
+            '?common/routes/*.php',
+        ],
         'bootstrap' => 'common/bootstrap.php',
         'bootstrap-web' => '$bootstrap',
         'bootstrap-console' => '$bootstrap',
