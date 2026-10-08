@@ -1,0 +1,14 @@
+{
+  "name": "guia-yii3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "esbocos": "node scripts/gerar-esbocos.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}
